@@ -3,7 +3,7 @@
 
 # starling-verifier
 
-A simple express middleware that throws an Error if a webhook signature is invalid with bodyParser built in.
+A simple [express](https://github.com/expressjs/express) middleware that throws an Error if a webhook signature is invalid, with bodyParser built in.
 
 ## Installation
 
@@ -16,7 +16,7 @@ A simple express middleware that throws an Error if a webhook signature is inval
 ```javascript
 const express = require("express");
 const app = express();
-const starlingVerifierMiddleware = require('./starling-verifier')
+const starlingVerifierMiddleware = require('starling-verifier')
 const stlng = starlingVerifierMiddleware(PROCESS.ENV.STARLING_WEBHOOK_SECRET)
 app.use(stlng)
 
