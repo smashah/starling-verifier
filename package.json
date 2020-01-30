@@ -1,6 +1,6 @@
 {
   "name": "starling-verifier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple express middleware to easily verify starling webhook requests.",
   "main": "index.js",
   "scripts": {
