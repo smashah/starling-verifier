@@ -1,0 +1,27 @@
+{
+  "name": "starling-verifier",
+  "version": "1.0.0",
+  "description": "A simple express middleware to easily verify starling webhook requests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smashah/starling-verifier.git"
+  },
+  "keywords": [
+    "starling",
+    "webhook",
+    "verifier"
+  ],
+  "author": "SMASHAH <shah@idk.uno> (smashah.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smashah/starling-verifier/issues"
+  },
+  "homepage": "https://github.com/smashah/starling-verifier#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0"
+  }
+}
