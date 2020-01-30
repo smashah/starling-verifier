@@ -3,7 +3,7 @@
 
 # starling-verifier
 
-A simple [express](https://github.com/expressjs/express) middleware that throws an Error if a webhook signature is invalid, with bodyParser built in.
+A simple [express](https://github.com/expressjs/express) middleware for [Starling Bank webhooks](https://developer.starlingbank.com/) that throws an Error if a webhook signature is invalid, with bodyParser built in.
 
 ## Installation
 
